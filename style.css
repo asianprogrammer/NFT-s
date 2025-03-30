@@ -21,20 +21,52 @@
 
 body {
     font-family: Inter;
+    background: var(--bg);
 }
 
 .nav {
     width: 100%;
     height: 110px;
-    border-bottom: 1px solid var(--lightWhite);
+    position: fixed;
+    border: solid 1px rgba(59, 59, 59, 0.479);
 }
 
 .nav h1 {
-    margin-left: 2em;
+    color: white;
+    margin-left: 4em;
 }
 
 .nav .menu {
+    cursor: pointer;
+    margin-right: 4em;
+}
+
+.nav .icon {
+    width: 20px;
+    height: 20px;
+    padding: 1em;
+    cursor: pointer;
     margin-right: 2em;
+    border-radius: 50%;
+    background: rgb(255, 255, 255, 15%);
+}
+
+.nav .icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.nav button {
+    outline: none;
+    border: none;
+    width: 148px;
+    height: 54px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-right: 2em;
+    border-radius: 39px;
+    background: var(--lightGreen);
 }
 
 .nav a {
