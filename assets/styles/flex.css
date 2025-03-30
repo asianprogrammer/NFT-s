@@ -1,15 +1,14 @@
 /* Cross-browser support for flex display */
 .flex {
-    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox;      /* IE 10 */
-    display: -webkit-flex;     /* NEW - Chrome */
-    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;  
 }
 
-/* Flex Y-axis center */
 .FY-center {
-    align-items: center;       /* Align items vertically center */
+    align-items: center; 
 }
 
 .FY-end {
